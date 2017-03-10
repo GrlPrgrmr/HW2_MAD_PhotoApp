@@ -120,7 +120,7 @@ public class PhotoListActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Uri packageURI = Uri.parse("package:edu.csulb.android.hw2_mad_photoapp");
+            Uri packageURI = Uri.parse("package:photoapp.android.csulb.edu.hw2_mad_photoapp");
             Intent uninstallIntent = new Intent(Intent.ACTION_DELETE, packageURI);
             startActivity(uninstallIntent);
             return true;

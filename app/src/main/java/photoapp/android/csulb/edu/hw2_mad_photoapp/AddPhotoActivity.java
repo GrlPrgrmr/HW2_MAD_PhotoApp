@@ -179,7 +179,7 @@ public class AddPhotoActivity extends AppCompatActivity implements View.OnClickL
     {
         Bitmap bitmap = mImageBitMap;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        //bitmap.compress(Bitmap.CompressFormat.PNG, 50 /*ignored for PNG*/, bos);
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 100 /*ignored for PNG*/, bos);
         byte[] bitmapdata = bos.toByteArray();
 
         FileOutputStream fos;
