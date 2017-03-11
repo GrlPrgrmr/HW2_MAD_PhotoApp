@@ -19,6 +19,7 @@
         android:layout_height="40dip"
         android:id="@+id/caption"
         android:background="#AFD8CF"
+
         />
 
     <Button

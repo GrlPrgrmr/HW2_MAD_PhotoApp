@@ -8,7 +8,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:background="#AFD8CF"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+
+        android:textSize="14sp"
+
+        android:background="@drawable/custombordertextview"
         android:id="@+id/caption" android:textStyle="italic" android:fontFamily="sans-serif-condensed"/>
 
 </LinearLayout>

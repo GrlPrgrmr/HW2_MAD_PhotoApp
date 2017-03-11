@@ -9,23 +9,29 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/customborder"
     tools:context="photoapp.android.csulb.edu.hw2_mad_photoapp.ViewPictureActivity">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="350dp"
+        android:padding="5dp"
         android:id="@+id/imageViewItem"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/captionItem"
+
         android:layout_gravity="center"
         android:gravity="center"
+        android:background="@drawable/custombordertextview"
         android:fontFamily="sans-serif"
         android:textSize="14dp"
         android:textStyle="bold"
         android:textAppearance="@color/colorPrimaryDark"
-        android:layout_marginTop="5dip"/>
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"/>
 
 </LinearLayout>
